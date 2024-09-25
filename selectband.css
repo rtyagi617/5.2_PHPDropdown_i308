@@ -1,0 +1,50 @@
+/* Set the font for the entire body */
+body {
+   font-family: 'Georgia', serif;
+   background-color: #f7f3ed; /* A soft pastel beige background */
+   color: #333; /* Dark gray text for readability */
+   margin: 0;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center; /* Center content horizontally */
+}
+
+h1 {
+   color: #6a5acd; /* A soft pastel slate blue for headings */
+   margin-bottom: 20px; /* Space below the title */
+}
+
+form {
+   background-color: #ffe4e1; /* A soft pastel pink background for the form */
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* A subtle shadow for some depth */
+   width: 300px;
+}
+
+select {
+   width: 100%; /* Make the select box take up the full container width */
+   padding: 8px;
+   margin-top: 10px; /* Spacing above the select box */
+   border: 2px solid #b0c4de; /* Soft steel blue border */
+   border-radius: 4px;
+}
+
+input[type="submit"] {
+   background-color: #b0e0e6; /* A soft pastel blue for the submit button */
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   margin-top: 20px; /* Space above the submit button */
+   border-radius: 4px;
+   cursor: pointer; /* Pointer cursor on hover */
+   width: 100%;
+   box-sizing: border-box; /* Include padding and border in the width */
+}
+
+input[type="submit"]:hover {
+   background-color: #9acfe7; /* Slightly darker blue when hovering */
+}
+
+
